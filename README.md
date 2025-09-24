@@ -23,13 +23,13 @@ directory.
 ## 📂 Project Structure
 
     src/
-     ├── app/store.js           # Redux store configuration
-     ├── features/users/usersSlice.js # Redux slice for users
-     ├── pages/Home.jsx         # Homepage with list and search
-     ├── pages/UserDetail.jsx   # Detail page for a single user
-     ├── App.jsx                # Routes
-     ├── main.jsx               # Entry point with Redux Provider
-     └── styles.css             # Basic styles
+     ├── redux/store.js              # Redux store configuration
+     ├── redux/usersSlice.js         # Redux slice for users
+     ├── components/Home.jsx         # Homepage with list and search
+     ├── components/UserDetail.jsx   # Detail page for a single user
+     ├── App.jsx                     # Routes
+     ├── main.jsx                    # Entry point with Redux Provider
+     └── index.css                  # Basic styles
 
 ## ▶ Installation & Usage
 
